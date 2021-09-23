@@ -1,9 +1,11 @@
 .main{
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 
 }
 .main-left{
     margin-left: 150px;
+    border-right: 1px solid  #D3D3D3;
 }
 .main-right{
     margin-left: 5px;

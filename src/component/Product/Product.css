@@ -1,5 +1,5 @@
 .product{
-    border-right: 1px solid  #D3D3D3;
+    
     border-bottom: 1px solid  #D3D3D3;
     padding: 30px 0px 30px 0px;
     margin-right: 10px;
@@ -30,7 +30,15 @@
     border: 1px solid #A88734;
     padding: 5px 50px;
     margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .details-right ul li{
     color:#808080
+}
+.feature-value{
+    font-weight: bold;
+}
+.seller,.stock, .features{
+    margin-top: 10px;
 }
