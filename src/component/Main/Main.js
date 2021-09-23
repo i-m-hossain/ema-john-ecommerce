@@ -12,11 +12,9 @@ const Main = () => {
         .then(res => res.json())
         .then(data=> setProducts(data))
     },[])
-    // const handleOrderCount=() =>{
-    //     setOrderCount(orderCount+1)
-    // }
     const handleAddToCart= (product) =>{
-        setCart(product)
+        const newCart = [...cart,product]
+        setCart(newCart)
     }
     return (
         <div className="main">

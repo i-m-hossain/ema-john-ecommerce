@@ -5,7 +5,7 @@ const Cart = (props) => {
     return (
         <div className="summary">
             <h2 className="summary-title">Order Summary</h2>
-            <p className="items-orderd">Items ordered:</p>
+            <p className="items-orderd">Items ordered: {props.cart.length}</p>
             <table >
                 <tbody>
                     <tr>
